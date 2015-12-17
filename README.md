@@ -1,2 +1,2 @@
 # golf
-A page for golfers that want to get tee times and tips to improve their game
+A page for golfers that want to find golf courses around them and tips to improve their game.
