@@ -3,9 +3,12 @@ html, body {
   margin: 0;
   padding: 0;
   padding-top: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 100px;
+}
+body {
+  background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
 }
 #map {
   height: 100%;
