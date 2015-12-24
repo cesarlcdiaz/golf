@@ -3,13 +3,23 @@ html, body {
   margin: 0;
   padding: 0;
   padding-top: 30px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 100px;
 }
 body {
-  background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
+  position: center;
+	background-size: 100%;
+  background-image: url("http://thesandtrap.com/uploads/static_huddler/d/d2/d21e5966_golfgreen.jpeg");
+}
+#navbar nav {
+  background-color: #009292;
+}
+#navbar button {
+  background-color: #65A2A2;
 }
 #map {
-  height: 100%;
+  position: relative;
+  height: 80%;
 }
+

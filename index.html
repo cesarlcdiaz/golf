@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
 <body>
+  <div id="container">
+  </div>
   <div id="navbar">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -23,18 +25,26 @@
   </div>
 </nav>
 </div>
- <script src="homepage/homepage.js" type="text/javascript"></script>
  <div id="map">
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0zeEiP6UkzNgp3anjz_oBt8vKIABnm4E&callback=initMap"
  async defer></script>
  </div>
+</div>
+<div>
+ <script src="homepage/homepage.js" type="text/javascript"></script>
+</div>
  <div id="searchbox">
   <div class="col-lg-6">
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Zip, State ....">
       <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
+        <button id="find-button" class="btn btn-default" type="button">Go!</button>
       </span>
+</div>
+</div>
+</div>
+<div id="container-pagetwo">
+
 </div>
 </div>
  <script src="main.js"></script>
