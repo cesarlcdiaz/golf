@@ -1,25 +1,83 @@
 html, body {
-  height: 75%;
+  height: 100%;
   margin: 0;
   padding: 0;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 100px;
 }
 body {
-  position: center;
-	background-size: 100%;
+   background-size: 100%;
   background-image: url("http://thesandtrap.com/uploads/static_huddler/d/d2/d21e5966_golfgreen.jpeg");
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
-#navbar nav {
-  background-color: #009292;
+#map { 
+  margin-top: 25px;
+  margin-bottom: 50px;
+  height: 40%;
 }
-#navbar button {
-  background-color: #65A2A2;
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
 }
-#map {
-  position: relative;
-  height: 80%;
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
 }
-
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.marketing .col-lg-4 {
+  color: #FFFFFF;
+  margin-top: 25%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.featurette-divider {
+  margin: 80px 0; 
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+@media (min-width: 768px) {
+ 
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
