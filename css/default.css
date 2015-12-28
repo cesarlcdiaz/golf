@@ -7,10 +7,10 @@ html, body {
   padding-right: 15px;
 }
 body {
-   background-size: 100%;
-  background-image: url("http://thesandtrap.com/uploads/static_huddler/d/d2/d21e5966_golfgreen.jpeg");
-  padding-bottom: 40px;
-  color: #5a5a5a;
+ background-size: 100%;
+ background-image: url("http://thesandtrap.com/uploads/static_huddler/d/d2/d21e5966_golfgreen.jpeg");
+ padding-bottom: 40px;
+ color: #5a5a5a;
 }
 #map { 
   margin-top: 25px;
@@ -36,7 +36,10 @@ body {
   width: auto;
 }
 .marketing .col-lg-4 {
+  background-color: rgba(0,0,0, 0.5);
   color: #FFFFFF;
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin-top: 25%;
   margin-bottom: 20px;
   text-align: center;
@@ -57,7 +60,7 @@ body {
   letter-spacing: -1px;
 }
 @media (min-width: 768px) {
- 
+
   .navbar-wrapper {
     margin-top: 20px;
   }
