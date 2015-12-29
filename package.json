@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cesarlcdiaz/golf/issues"
   },
-  "homepage": "https://github.com/cesarlcdiaz/golf#readme"
+  "homepage": "https://github.com/cesarlcdiaz/golf#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
