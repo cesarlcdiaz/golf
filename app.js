@@ -4,4 +4,4 @@ app = express();
 
 app.use('/',express.static('.'));
 
-  app.listen(300);
+  app.listen(3000);

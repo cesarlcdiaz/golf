@@ -1,0 +1,277 @@
+var locations = [ 
+
+{
+  "name": "Costa Mesa CC",
+
+  "address": "1701 Golf Course Dr, Costa Mesa, CA 92626",
+
+  "web": "costamesacountryclub.com",
+
+  "lat": "33.668630",
+
+  "lon": "-117.926816"
+
+},
+
+{
+  "name": "Rancho San Joaquin Golf Course",
+
+  "address": "One Ethel Coplen Way, Irvine, CA 92612",
+
+  "web": "ranchosanjoaquin.com",
+
+  "lat": "33.665604",
+
+  "lon": "-117.833176"
+
+},
+
+{
+  "name": "Deser Willow",
+
+  "address": "38995 Desert Willow Dr Palm Desert, CA 92260",
+
+  "web": "desertwillow.com",
+
+  "lat": "33.765671",
+
+  "lon": "-116.366058"
+
+},
+
+{
+  "name": "Newport beach Golf Course",
+
+  "address": "3100 Irvine Ave, Newport Beach, CA 92660",
+
+  "web": "newportbeachgolfcoursellc.com",
+
+  "lat": "33.660791",
+
+  "lon": "-117.878921"
+
+},
+
+{
+  "name": "Santa Ana CC",
+
+  "address": "20382 Newport Blvd, Santa Ana, CA 92707",
+
+  "web": "santaanacc.org",
+
+  "lat": "33.665493",
+
+  "lon": "-117.887574"
+
+},
+
+{
+  "name": "SilverRock Resort",
+
+  "address": "79-179 Ahmanson Ln, La Quinta, CA 92253",
+
+  "web": "silverrock.org",
+
+  "lat": "33.667301",
+
+  "lon": "-116.280366"
+
+},
+
+{
+  "name": "Blue Ash Golf Course",
+
+  "address": "4040 Cooper Rd, Cincinnati, OH 45241",
+
+  "web": "blueash.com",
+
+  "lat": "39.247544",
+
+  "lon": "-84.393563"
+
+},
+
+{
+  "name": "Lions Municipal Golf Course",
+
+  "address": "2901 Enfield Rd, Austin, TX 78703",
+
+  "web": "austintexas.gov",
+
+  "lat": "30.290959",
+
+  "lon": "-97.777061"
+
+},
+
+
+{
+  "name": "Causeway Club",
+
+  "address": "10 Fernald Point Rd, Southwest Harbor, ME 04679",
+
+  "web": "thecausewayclub.org",
+
+  "lat": "44.292062",
+
+  "lon": "-68.331503"
+
+},
+
+{
+  "name": "Glen Dornoch Waterway Golf",
+
+  "address": "1400 Enterprise Ave, Myrtle Beach, SC 29577",
+
+  "web": "glensgolfgroup.com",
+
+  "lat": "33.807309",
+
+  "lon": "-79.044356"
+
+},
+
+{
+  "name": "Hidden Lakes Golf Course",
+
+  "address": "6020 Greenwich Rd, Derby, KS 67037",
+
+  "web": "hiddenlakesgolfcourse.com",
+
+  "lat": "37.528020",
+
+  "lon": "-96.718455"
+
+},
+
+{
+  "name": "The Wynn Golf Club",
+
+  "address": "3131 S Las Vegas Blvd, Las Vegas, NV 89109",
+
+  "web": "wynnlasvegas.com",
+
+  "lat": "36.128339",
+
+  "lon": "-115.164919"
+
+},
+
+{
+  "name": "ASU Karsten Golf Course",
+
+  "address": "1125 E Rio Salado Pkwy, Tempe, AZ 85281",
+
+  "web": "asukarsten.com",
+
+  "lat": "33.374342",
+
+  "lon": "-111.868505"
+
+},
+
+{
+  "name": "Black Bear Golf Club",
+
+  "address": "11400 Canterberry Pkwy, Parker, CO 80138",
+
+  "web": "canongatecolorado.com",
+
+  "lat": "39.506252",
+
+  "lon": "-107.722317"
+
+},
+
+{
+  "name": "Lake Tahoe Golf Course",
+
+  "address": "2500 Emerald Bay Rd, South Lake Tahoe, CA 96150",
+
+  "web": "laketahoegc.com",
+
+  "lat": "38.830537",
+
+  "lon": "-120.031264"
+
+},
+
+{
+  "name": "Catalina Island Golf Course",
+
+  "address": "1 Country Club Dr, Avalon, CA 90704",
+
+  "web": "visitcatalinaisland.com",
+
+  "lat": "33.336750",
+
+  "lon": "-118.331057"
+
+},
+
+{
+  "name": "",
+
+  "address": "",
+
+  "web": "",
+
+  "lat": "",
+
+  "lon": ""
+
+},
+
+{
+  "name": "",
+
+  "address": "",
+
+  "web": "",
+
+  "lat": "",
+
+  "lon": ""
+
+},
+
+{
+  "name": "",
+
+  "address": "",
+
+  "web": "",
+
+  "lat": "",
+
+  "lon": ""
+
+},
+
+{
+  "name": "",
+
+  "address": "",
+
+  "web": "",
+
+  "lat": "",
+
+  "lon": ""
+
+},
+
+{
+  "name": "",
+
+  "address": "",
+
+  "web": "",
+
+  "lat": "",
+
+  "lon": ""
+
+},
+
+
