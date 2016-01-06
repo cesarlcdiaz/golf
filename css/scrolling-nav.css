@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     width: 100%;
     height: 100%;
 }
@@ -21,7 +21,14 @@ html {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+    .navbar >.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+        font-size: xx-large;
+    }
+    .navbar-nav>li {
+        float: left;
+        font-size: large;
+    }
     .top-nav-collapse {
         padding: 0;
     }
@@ -33,23 +40,32 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
-    background: #eee;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-size: cover, contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
 }
-
 .services-section {
     height: 100%;
-    padding-top: 150px;
+    color: #FFFFFF;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
+    background-size: cover, contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("http://ksmleadership.com/wp-content/uploads/2015/10/golff.jpg");
 }
 
 .contact-section {
