@@ -16,22 +16,25 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+
+        padding: 10px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
     .navbar >.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
         margin-left: -15px;
-        font-size: xx-large;
-    }
-    .navbar-nav>li {
-        float: left;
+        color: #040303;
         font-size: large;
     }
-    .top-nav-collapse {
-        padding: 0;
-    }
+    .navbar-nav>li {
+     color: #040303;
+     float: left;
+     font-size: medium;
+ }
+ .top-nav-collapse {
+    padding: 0;
+}
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -49,12 +52,16 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    opacity: 0.7;
     background-attachment: fixed;
     background-size: cover, contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
+}
+#about div .col-lg-12 {
+    opacity: 0.7;
+    background-color: #CECBCB;
+
 }
 .services-section {
     height: 100%;
@@ -69,8 +76,25 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+   height: 100%;
+   padding-top: 150px;
+   text-align: center;
+   background-attachment: fixed;
+   background-size: cover, contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
+}
+.btn {
+ background: #CECBCB;
+ color: #040303;
+}
+.services, .text-info, h2 {
+  color: #040303;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px; 
+  padding-left: 10px;
+  opacity: 0.7;
+  background-color: #CECBCB;
 }
