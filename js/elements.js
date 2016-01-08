@@ -21,7 +21,7 @@ information.appendChild(firstText);
 
 var elem = document.createElement("img");
 elem.setAttribute("src", "images/logos.png");
-elem.setAttribute("height", "400");
+elem.setAttribute("height", "300");
 elem.setAttribute("width", "800");
 document.getElementById("img-logos").appendChild(elem);
 /*
