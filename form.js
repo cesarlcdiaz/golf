@@ -1,3 +1,4 @@
+
 var xhr = new XMLHttpRequest();
 
 xhr.onload = function() {
@@ -20,3 +21,5 @@ xhr.open('POST','http://127.0.0.1:3000/query',true);
 xhr.send(input);
 
 },false)
+
+

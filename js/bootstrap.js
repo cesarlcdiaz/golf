@@ -919,7 +919,7 @@ if (typeof jQuery === 'undefined') {
 
 +function ($) {
   'use strict';
-
+/*
   // MODAL CLASS DEFINITION
   // ======================
 
@@ -1016,7 +1016,7 @@ if (typeof jQuery === 'undefined') {
     })
   }
 
-  Modal.prototype.hide = function (e) {
+  Modal.prototype.show = function (e) {
     if (e) e.preventDefault()
 
     e = $.Event('hide.bs.modal')
@@ -1055,7 +1055,7 @@ if (typeof jQuery === 'undefined') {
         }
       }, this))
   }
-
+/*
   Modal.prototype.escape = function () {
     if (this.isShown && this.options.keyboard) {
       this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
@@ -1065,7 +1065,7 @@ if (typeof jQuery === 'undefined') {
       this.$element.off('keydown.dismiss.bs.modal')
     }
   }
-
+*/
   Modal.prototype.resize = function () {
     if (this.isShown) {
       $(window).on('resize.bs.modal', $.proxy(this.handleUpdate, this))
@@ -1074,9 +1074,9 @@ if (typeof jQuery === 'undefined') {
     }
   }
 
-  Modal.prototype.hideModal = function () {
+  Modal.prototype = function () {
     var that = this
-    this.$element.hide()
+    this.$element.show()
     this.backdrop(function () {
       that.$body.removeClass('modal-open')
       that.resetAdjustments()
@@ -1245,7 +1245,7 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
-
+*/
 /* ========================================================================
  * Bootstrap: tooltip.js v3.3.6
  * http://getbootstrap.com/javascript/#tooltip
