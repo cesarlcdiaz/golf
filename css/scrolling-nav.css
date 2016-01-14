@@ -43,87 +43,14 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
+    width: 100%;
     padding-top: 100px;
     text-align: center;
     background: #fff;
-}
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 20px;
-  text-align: center;
-  color: white;
-  background-color: rgba(0,0,0, 0.5);
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 100px;
-    text-align: center;
     background-attachment: fixed;
     background-size: cover, contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
 }
-#about div .col-lg-12 {
-    opacity: 0.7;
-    background-color: #CECBCB;
 
-}
-.services-section {
-    height: 100%;
-    color: #FFFFFF;
-    padding-top: 100px;
-    text-align: center;
-    background: #fff;
-    background-size: cover, contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url("http://ksmleadership.com/wp-content/uploads/2015/10/golff.jpg");
-}
-
-.contact-section {
-   height: 100%;
-   color: #040303;
-   padding-top: 150px;
-   text-align: center;
-   background-attachment: fixed;
-   background-size: cover, contain;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-image: url("http://bunkerhillgolf.com/wp-content/uploads/2013/12/Bunker-Hill-Green.jpg");
-}
-.contact, h1 {
-  color: #040303;  
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px; 
-  padding-left: 10px;
-  opacity: 0.7;
-  background-color: #CECBCB;
-}
-
-.btn {
- background: #CECBCB;
- color: #040303;
-}
-.services, .text-info, h2 {
-  color: #040303;  
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px; 
-  padding-left: 10px;
-  opacity: 0.7;
-  background-color: #CECBCB;
-}
-.contact-section, h1 {
-  color: #040303; 
-  background-color: #CECBCB;
-}
-#img-logos {
- margin-right: 50px;
-}
