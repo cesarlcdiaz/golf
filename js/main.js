@@ -7,10 +7,15 @@ function initAutocomplete() {
   });
 
   var input = document.getElementById('pac-input');
-  var searchBox = new google.maps.places.SearchBox(input);
-    function getBounds(){
+  var searchBox = new google.maps.places.SearchBox(input,null);
+  google.maps.event.addListener(searchBox,'places_changed', function() {
+     var places = searchBox.getPlaces();
+     var bounds = new google.maps.LatLngBounds();
+     map.fitBounds(bounds);
+     map.getPlaces(input);
+  });
 
-    }
+
 
 var locations = [];
 
