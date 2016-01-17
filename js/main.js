@@ -11,8 +11,11 @@ function initAutocomplete() {
   google.maps.event.addListener(searchBox,'places_changed', function() {
      var places = searchBox.getPlaces();
      var bounds = new google.maps.LatLngBounds();
+     for(i=0; place=places[i]; i++){
+      bounds.extend(place.geometry.location);
+     }
      map.fitBounds(bounds);
-     map.getPlaces(input);
+     map.setZoom(12);
   });
 
 
