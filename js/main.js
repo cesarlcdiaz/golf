@@ -73,7 +73,7 @@ function initAutocomplete() {
     var marker = new google.maps.Marker({position: locations[i].latlng, map:map, title:locations[i].name});
     var location = locations[i];
     var infoWindow = new google.maps.InfoWindow();
-    var content = '<strong class="lead" style="color:#FFFFFF;">' + location.name + '</strong> - (<a target="_blank" href="' + location.url + '">url</a>)<hr style="margin:0;"><p style="margin-bottom:0;">' + location.address + '<br>' + location.city + ', ' + location.state + ' ' + location.zip + '<br>' + location.phone + '</p>';
+    var content = '<strong class="lead" style="color:#FFFFFF;">' + location.name + '</strong> - (<a target="_blank" href="' + location.url + '">url</a>)<hr style="margin:0;"><p style="margin-bottom:0;">' + location.address + '<br>' + location.phone + '</p>';
     google.maps.event.addListener(marker, 'click', (function(marker, content) {
       return function() {
         document.getElementById('myinfo').innerHTML = content;
